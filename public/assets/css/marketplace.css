@@ -1,0 +1,90 @@
+body{
+    width: 428px;
+    background-color: #DADADA;
+    margin: auto;
+}   
+a{
+    text-decoration: none;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #747576;
+}
+.topbar img{
+    width: 50px;
+}
+.righttopbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #FA9335;
+    font-size: 40px;
+}
+.lefttopbar{
+    padding: 10px;
+}
+.lefttopbar img{
+    margin: 0px 5px;
+}
+.tab{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.blue{
+    color: #004788;
+}
+.selected{
+    background-color: #FA9335;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+.divider{
+    height: 5px;
+    background-color: #747576;
+}
+.info{
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.title{
+    font-weight: 700;
+}
+.location{
+    color: #5778EF;
+    display: flex;
+    align-items: center;
+}
+.location img{
+    width: 25px;
+    margin-right: 5px;
+}
+.row{
+    display: flex;
+    background-color: white;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    width: 210px;
+}
+.botbar{
+    background-color: #747576;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.option{
+    padding: 10px 0px;
+    text-align: center;
+    color: #FF9901;
+}
+.option img{
+    width: 25px;
+}

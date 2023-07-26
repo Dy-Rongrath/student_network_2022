@@ -1,0 +1,126 @@
+body{
+    width: 428px;
+    background-color: #DADADA;
+    margin: auto;
+}   
+a{
+    text-decoration: none;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #747576;
+}
+.topbar img{
+    width: 50px;
+}
+.righttopbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #FA9335;
+    font-size: 40px;
+}
+.lefttopbar{
+    padding: 10px;
+}
+.lefttopbar img{
+    margin: 0px 5px;
+}
+.tab{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.selected{
+    background-color: #FA9335;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.divider{
+    background-color: #747576;
+    height: 5px;
+}
+.post{
+    background-color: white;
+}
+.postinfo{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.postinfo img{
+    width: 60px;
+}
+.profileimg{
+    padding: 10px;
+}
+.rightpost{
+    display: flex;
+    align-items: center;
+}
+.info{
+    padding: 10px 0px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.follow{
+    color: #FA9335;
+    font-size: 12px;
+}
+.sub{
+    font-size: 15px;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+}
+.sub img{
+    width: 15px;
+}
+.leftpost img{
+    width: 40px;
+    padding: 15px;
+}
+.posttext{
+    padding: 10px;
+}
+.seemore{
+    opacity: 50%;
+    padding: 5px 0px;
+}
+.postimg{
+    width: 428px;
+}
+.reaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reactionicon{
+    padding: 10px;
+}
+.reactionicon img{
+    width: 30px;
+}
+.reactioninfo{
+    padding: 10px;
+}
+.botbar{
+    background-color: #747576;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.option{
+    padding: 10px 0px;
+    text-align: center;
+    color: #FF9901;
+}
+.option img{
+    width: 25px;
+}

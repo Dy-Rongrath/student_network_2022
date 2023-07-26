@@ -1,0 +1,79 @@
+body{
+    width: 428px;
+    background-color: #DADADA;
+    margin: auto;
+}   
+a{
+    text-decoration: none;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #747576;
+}
+.topbar img{
+    width: 50px;
+}
+.righttopbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #FA9335;
+    font-size: 40px;
+}
+.lefttopbar{
+    padding: 10px;
+}
+.lefttopbar img{
+    margin: 0px 5px;
+}
+.settings{
+    background-color: white;
+    font-size: 25px;
+}
+.settings img{
+    width: 25px;
+    padding: 10px;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.email{
+    color: #FF0F00;
+    font-size: 20px;
+}
+.divider{
+    background-color: #747576;
+    opacity: 50%;
+    height: 20px;
+}
+.info{
+    background-color: #747576;
+    opacity: 50%;
+    font-size: medium;
+}
+.logout{
+    color: #FF0F00;
+    display: flex;
+    align-items: center;
+}
+.version{
+    background-color: #747576;
+    opacity: 50%;
+    font-size: medium;
+}
+.botbar{
+    background-color: #747576;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.option{
+    padding: 10px 0px;
+    text-align: center;
+    color: #FF9901;
+}
+.option img{
+    width: 25px;
+}

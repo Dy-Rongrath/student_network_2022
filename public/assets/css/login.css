@@ -1,0 +1,59 @@
+body{
+    width: 428px;
+    background-color: #FF7A009C;
+    margin: auto;
+}  
+a{
+    text-decoration: none;
+}
+.red{
+    color: #FF0000;
+    font-size: 20px;
+    padding: 40px 20px;
+}
+.input{
+    color: #5F5F5F;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.input textarea{
+    background-color: #fbac62d4;
+    margin-top: 5px;
+    margin-left: 40px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    border-bottom: 1px solid #878787;
+}
+.signin{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.logo{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 40px;
+    margin: 0px 10px;
+}
+.apple{
+    background-color: white;
+    border-radius: 50%;
+}
+.continue{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
